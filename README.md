@@ -1,4 +1,4 @@
-'''
+
 # Zepto Recommendation System
 
 This repository contains the code for a recommendation system designed for Zepto. The system uses various techniques to suggest products based on user queries.
@@ -18,7 +18,7 @@ To run the code, you need to have the following Python packages installed:
 
 You can install these packages using `pip`:
 
-```bash
+
 pip install mlxtend fuzzywuzzy scipy numpy pandas scikit-learn matplotlib joblib
 
 
@@ -34,4 +34,4 @@ Interactive Recommendations
 To test the interactive recommendation system, run the provided script. It will prompt you to enter a product name and will provide recommendations based on the selected product.
 
 
-'''
+
