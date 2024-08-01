@@ -23,16 +23,23 @@ You can install these packages using `pip`:
 
 
 ## Overview
-The main components of the recommendation system are:
 
-Finding Similar Products: Using fuzzywuzzy to find products similar to the user's query.
+The recommendation system consists of three main components:
 
-Interactive Recommendations: Providing a list of similar products for the user to choose from, and then generating recommendations based on the selected product.
+1. **Finding Similar Products**: Utilizing `fuzzywuzzy` to identify products similar to the user's query. This is particularly useful when the exact word is not present in the dataset (e.g., "Milk") but related terms like "Milk bread" are present. `fuzzywuzzy` helps find and match these related words.
 
+2. **Interactive Recommendations**: Offering a list of similar products for the user to choose from and subsequently generating recommendations based on the selected product. This component encompasses three parts:
+   - **Session Data Processing**
+   - **Product Data Processing**
+   - **Historical Sales Data Processing**
+   
+   A hybrid model is then constructed to integrate these data processing types, resulting in tailored recommendations.
 
 ## Usage
-Interactive Recommendations
-To test the interactive recommendation system, run the provided script. It will prompt you to enter a product name and will provide recommendations based on the selected product.
+
+### Interactive Recommendations
+
+To test the interactive recommendation system, execute the provided script. It will prompt you to enter a product name and subsequently offer recommendations based on the selected product.
 
 
 
