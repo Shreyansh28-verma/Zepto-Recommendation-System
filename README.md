@@ -22,14 +22,14 @@ You can install these packages using `pip`:
 pip install mlxtend fuzzywuzzy scipy numpy pandas scikit-learn matplotlib joblib
 
 
-Overview
+## Overview
 The main components of the recommendation system are:
 
 Finding Similar Products: Using fuzzywuzzy to find products similar to the user's query.
 Interactive Recommendations: Providing a list of similar products for the user to choose from, and then generating recommendations based on the selected product.
 
 
-Usage
+## Usage
 Interactive Recommendations
 To test the interactive recommendation system, run the provided script. It will prompt you to enter a product name and will provide recommendations based on the selected product.
 
