@@ -26,6 +26,7 @@ You can install these packages using `pip`:
 The main components of the recommendation system are:
 
 Finding Similar Products: Using fuzzywuzzy to find products similar to the user's query.
+
 Interactive Recommendations: Providing a list of similar products for the user to choose from, and then generating recommendations based on the selected product.
 
 
