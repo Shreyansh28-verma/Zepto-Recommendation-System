@@ -19,7 +19,7 @@ To run the code, you need to have the following Python packages installed:
 You can install these packages using `pip`:
 
 
-```bash pip install mlxtend fuzzywuzzy scipy numpy pandas scikit-learn matplotlib joblib
+```bash pip install mlxtend fuzzywuzzy scipy numpy pandas scikit-learn matplotlib joblib ```bash
 
 
 ## Overview
